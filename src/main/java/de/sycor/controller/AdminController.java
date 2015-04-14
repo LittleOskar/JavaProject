@@ -18,7 +18,7 @@ public class AdminController {
 	
 	de.sycor.controller.Controller ctr = new de.sycor.controller.Controller();
 	
-//	@RequestMapping(value = "/productDetail")
+//	@RequestMapping(value = "/editProduct")
 //	public ModelAndView login(HttpServletRequest request, @ModelAttribute("editedProduct") Product editedProduct, @RequestParam(value = "pID") int pID, ModelAndView model) {
 //		HttpSession session = request.getSession();
 //		

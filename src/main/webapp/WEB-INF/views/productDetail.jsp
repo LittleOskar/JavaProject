@@ -27,12 +27,6 @@
 			<img src="resources/images/${product.getPicName()}">
 <%-- 			<c:choose> --%>
 <%-- 			<c:when test="${user.getAdmin() == 1}"> --%>
-<%-- 			<form:form modelAttribute="editedProduct" action="editProduct"> --%>
-<!-- 			<br> -->
-<!-- 			Bild ändern: -->
-<%-- 			<form:input placeholder="${product.getPicName()}" path="picURL"/> --%>
-<!-- 			<input type="submit" value="Submit">    -->
-<%-- 			</form:form> --%>
 <%-- 			</c:when> --%>
 <%-- 			</c:choose> --%>
 		</div>
