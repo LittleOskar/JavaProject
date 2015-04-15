@@ -25,10 +25,11 @@
 		<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12"
 			id="image-collection">
 			<img src="resources/images/${product.getPicName()}">
-<%-- 			<c:choose> --%>
-<%-- 			<c:when test="${user.getAdmin() == 1}"> --%>
-<%-- 			</c:when> --%>
-<%-- 			</c:choose> --%>
+			<c:choose>
+			<c:when test="${user.getAdmin() == 1}">
+			Button auf edit-seite?
+			</c:when>
+			</c:choose>
 		</div>
 		<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12" id="info-wrapper">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
